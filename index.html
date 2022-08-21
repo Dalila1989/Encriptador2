@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+            
+                        
+    </head>
+
+    <body>
+
+        <header>
+            <div class="titulo">
+                <h1>ENCRIPTADOR</h1>
+                               
+            
+            </div>
+        </header>
+
+        <main class="fondo">
+            <div class="texto1">
+                 
+                    <textarea id="mensaje-encriptar" required placeholder="escriba su mensaje aqui"></textarea>       
+                </div>
+                
+            <div class="texto2">
+                <textarea id ="mensaje-cifrado" type="text"></textarea>
+                    <img src="imagenes/lupa.jpg" class="lupa" id="lupa">
+                    <br>
+                    <label id="mensaje">Ningun mensaje fue encontrado</label>
+                    <label id="minuscula">solo ingresar letras minusculas y sin acentos</label>
+                   
+                    
+
+            </div>       
+        <div class="botoness">
+                
+            <input type="submit" id="boton-encriptar" class="botones" value="Encriptar">
+            
+            <input type="submit" id="boton-desencriptar" class="botones" value="Desencriptar">
+            <input type="submit" id="boton-nuevo" class="botones" value="Nuevo mensaje">
+            <input type="submit" id="boton-copiar"  value="Copiar">
+            <br>
+        </div>
+   
+         </main>
+
+        <footer class="footer">
+            
+            <p class="copyright">challenge Alura latam 2022 - Cardoso dalila </p>
+
+        </footer>
+        <script src="js/encriptar.js"></script>
+    </body>
+
+</html>
