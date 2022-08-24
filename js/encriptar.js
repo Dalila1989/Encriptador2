@@ -18,7 +18,6 @@ botonEncriptar.addEventListener("click",function(event){
     ocultarDibujo();
     input.classList.remove("invisible");
     botonCopiar.classList.remove("invisible"); 
-    document.getElementById("botonCopiar").style.visibility="visible"
    });
 
 var botonDesencriptar = document.querySelector("#boton-desencriptar");
